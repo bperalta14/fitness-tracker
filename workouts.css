@@ -1,0 +1,273 @@
+:root {
+  --primary-color: #8e44ad;
+  --secondary-color: #9b59b6;
+  --accent-color: #c39bd3; 
+
+  
+  --sand-color: #f5d7b0;
+
+  
+  --black-color: #000000;
+  --white-color: #ffffff;
+
+  --width: 84%;
+  --mobile-width: 92%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--black-color);
+  background: var(--white-color);
+}
+
+.container {
+  width: var(--width);
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--black-color);
+  transition: all 300ms ease;
+}
+
+hi,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--black-color);
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+}
+
+h1 {
+  font-size: 6rem;
+  letter-spacing: -0.4rem;
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: 3.2rem;
+  letter-spacing: 0.1rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4,
+h5 {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  font-weight: 500;
+  background: var(--black-color);
+  color: var(--white-color);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.btn:hover {
+  background: var(--white-color);
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+}
+
+.btn-primary {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+section {
+  max-width: 100vw;
+  padding: 12rem 0 0;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+/* ======================= WEATHER CONTAINER ======================= */
+#weather {
+  padding: 20px;
+  background-color: var(--secondary-color);
+  margin: 5rem auto 20px;
+  border: 1px solid #ccc;
+}
+
+#weather h2,
+#weather p {
+  color: var(--white-color);
+}
+
+#weather p {
+  margin-bottom: 10px;
+}
+
+#weather strong {
+  font-weight: bold;
+}
+
+/* ======================= MUSCLE CONTAINER ======================= */
+#muscle {
+  max-width: 1200px;
+  margin: 5rem auto 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.muscle {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.muscle h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.muscle img {
+  max-width: 25%;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.exercises {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exercise {
+  width: 30%;
+  margin: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.exercise p {
+  margin: 0;
+}
+
+.exercise p:first-child {
+  font-weight: bold;
+}
+
+/* ======================= MEDIA QUERIES (MOBILE PHONES) ======================= */
+@media screen and (max-width: 600px) {
+  h1 {
+      font-size: 3.4rem;
+  }
+
+  h2 {
+      font-size: 2.4rem;
+  }
+
+  h3 {
+      font-size: 1.6rem;
+  }
+
+  h4 {
+      font-size: 0.96rem;
+  }
+
+  h5 {
+      font-size: 0.7rem;
+  }
+
+  p {
+      font-size: 0.84rem;
+  }
+
+  #muscle .muscle h2 {
+      font-size: 2rem;
+  }
+
+  #muscle .exercises .exercise p {
+      font-size: 0.9rem;
+  }
+
+  #muscle .exercises {
+      flex-wrap: wrap;
+  }
+
+  #muscle .exercise {
+      width: 100%;
+      margin: 10px 0;
+  }
+}
+
+/* ======================= MEDIA QUERIES (TABLET) ======================= */
+@media screen and (max-width: 1024px) {
+  h1 {
+      font-size: 2.8rem;
+  }
+
+  h2 {
+      font-size: 2rem;
+  }
+
+  h3 {
+      font-size: 1.4rem;
+  }
+
+  h4 {
+      font-size: 0.8rem;
+  }
+
+  h5 {
+      font-size: 0.6rem;
+  }
+
+  p {
+      font-size: 0.8rem;
+  }
+
+  #muscle .muscle h2 {
+      font-size: 1.8rem;
+  }
+
+  #muscle .exercises .exercise p {
+      font-size: 0.8rem;
+  }
+
+  #muscle .exercises .exercise {
+      width: 48%;
+  }
+}
