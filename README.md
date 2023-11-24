@@ -6,7 +6,7 @@ A one stop shop for your workout needs. Are your muscles in the mood to workout 
 
 - [Features](#features)
 - [Usage](#usage)
-- [Getting Started](#getting-started)
+- [Demo](#demo)
 - [Contributing](#contributing)
 
 
@@ -24,9 +24,9 @@ A one stop shop for your workout needs. Are your muscles in the mood to workout 
 2. **Let's Talk**
 - Talk to us directly through our application by filling out your name, email, phone #, and type in a message.
 
-## Getting Started
+## Demo
 
-Visit the live demo to see the project in action.
+Visit the [live demo](https://bperalta14.github.io/fitness-tracker/) to see the project in action.
 
 ## Contributing
 
